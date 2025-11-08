@@ -1,0 +1,26 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "A minimal, production-grade job queue system with CLI interface",
+  "main": "index.js",
+  "bin": {
+    "queuectl": "./bin/queuectl.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "job-queue",
+    "queue",
+    "worker",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "better-sqlite3": "^9.2.2",
+    "chalk": "^4.1.2"
+  }
+}
+
